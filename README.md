@@ -10,8 +10,9 @@ Navigate inside respective git branch click on the zipped folder -> click on dow
 How to run:
 1. Download the project from github
 2. Open command prompt and navigate to WeatherTool folder
-3. Run command -> dotnet tool install --global --add-source ./nupkg WeatherTool
-4. Type 'weather' and give city name to run the tool. Ex: weather Mumbai
+3. Run command -> dotnet build
+4. Run command -> dotnet tool install --global --add-source ./nupkg WeatherTool
+5. Type 'weather' and give city name to run the tool. Ex: weather Mumbai
 
 Note:
 1. You can also run the source code in Visual Studio.
